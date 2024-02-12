@@ -2,15 +2,28 @@
   "name": "burger-queen-api-mock",
   "version": "1.0.0",
   "description": "A mock of Burger Queen API",
-  "main": "index.js",
+  "main": "api/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node api/server.js"
   },
   "author": "Sergio Sinuco <ssinuco@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "json-server": "^0.17.0",
+    "json-server": "^0.17.4",
     "json-server-auth": "^2.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinciarte/burger-queen-api-mock.git"
+  },
+  "keywords": [
+    "mock",
+    "data",
+    "clone"
+  ],
+  "bugs": {
+    "url": "https://github.com/dinciarte/burger-queen-api-mock/issues"
+  },
+  "homepage": "https://github.com/dinciarte/burger-queen-api-mock#readme"
 }
